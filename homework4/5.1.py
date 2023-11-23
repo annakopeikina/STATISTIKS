@@ -3,7 +3,7 @@ import math
 # Дано
 D_X = 25  # Дисперсия
 M = 178  # Среднее значение
-izmer_value = 190  # Измеряемое значение
+value = 190  # Измеряемое значение
 
 # Вычисление стандартного отклонения
 sigma = math.sqrt(D_X)
@@ -11,5 +11,5 @@ sigma = math.sqrt(D_X)
 print("Стандартное отклонение (σ):", sigma, "см")
 
 # Расчет сигм
-sigmas = (izmer_value - M) / sigma
+sigmas = (value - M) / sigma
 print("Измеряемое значение отклонено на", sigmas, "сигм")
