@@ -10,7 +10,7 @@ confidence_level = 0.95
 # Z-значение для уровня доверия 95%
 z_value = norm.ppf((1 + confidence_level) / 2)
 
-# Стандартная ошибкапше среднего
+# Стандартная ошибка среднего
 standard_error = np.sqrt(population_variance / sample_size)
 
 # Границы доверительного интервала
